@@ -3,12 +3,18 @@
 
 <p>Hello world!</p>
 <a href="#" class="trigger">Trigger</a>
+<a href="#" class="trigger">Foo</a>
 <a href="#" class="dostuff">Do Stuff</a>
+<a href="#" class="blah">blah</a>
 
 <script type="text/javascript">
-  $('.trigger').click(function(){
-      $(this).fadeOut();
-      });
+  function foo(){
+    console.log($(this));
+    $('.trigger, .blah').fadeOut();
+  }
+
+  $('.trigger').click(foo);
+  $('.blah').click(foo);
   $('.dostuff').click(function(){
       //console.log(this);
       $(this).slideUp();

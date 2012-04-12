@@ -40,7 +40,7 @@ PEDAL TO THE FLOOR
 
 Go ahead and open sample.html in your web browser (perhaps ctrl-o, ~/Projects/jquery_css_tutorial/sample.html).  You should see some text and two links.  Play around and see what they do.
 
-Next, open sample.html in your favorite web browser.  The first two lines include our JQuery library and stylesheet.  After that, some HTML for the text and links on the page, and some JQuery code to create the actions for the links.
+Next, open sample.html in your favorite editor.  The first two lines include our JQuery library and stylesheet.  After that, some HTML for the text and links on the page, and some JQuery code to create the actions for the links.
 
 To break down what the JQuery is doing... The first part uses a CSS selector to find 1 or more elements in the web page:
 
